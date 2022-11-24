@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE MESSAGE SYSTEM "http://xmlapi.myvaluefirst.com/psms/dtd/messagev12.dtd" >
+<MESSAGE VER="1.2"><USER USERNAME=$un PASSWORD=$pw />
+    <SMS UDH="0" PROPERTY="0" ID="1"  CODING="1"  TEXT = $body >
+        <ADDRESS FROM=$fromNo TO=$to SEQ="1" TAG="1" />
+    </SMS>
+</MESSAGE>
